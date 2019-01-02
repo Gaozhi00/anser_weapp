@@ -1,0 +1,40 @@
+page {
+  background-color:#F6C344;
+}
+.top {
+  height: 40rpx;
+}
+.image_logo {
+  height: 200rpx;
+}
+.input {
+  text-align: center;
+  font-size: 30rpx;
+}
+.name {
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+.number {
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.inputClass {
+  background-color: white;
+  width: 300rpx;
+  border-radius:8rpx;
+  margin-left: 230rpx;
+}
+.button {
+  margin-top: 40rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+}
+.f {
+  color: white;
+  font-size: 24rpx;
+  background-color: #ED602D;
+  border-color: red;
+  border-radius:8rpx;
+}

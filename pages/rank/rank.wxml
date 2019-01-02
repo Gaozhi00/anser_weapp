@@ -1,0 +1,17 @@
+<view>
+  <view class="top">
+    <text>排行榜</text>
+  </view>
+  <view class="rank" wx:for="{{rank_item}}" wx:key='ranking'>
+    <view class="rank1">
+      <text>{{item.rank}}</text>
+    </view>
+    <view class="rank1">
+      <text>{{item.userName}}</text>
+    </view>
+    <view class="rank1">
+      <text>{{item.score}}</text>
+    </view>
+  </view>
+  
+</view>

@@ -1,0 +1,46 @@
+<view>
+  <view class="image_logo">
+    <cover-image src="/image/logo.jpg" mode="aspectFit" />
+  </view>
+  <view class="empty"></view>
+  <view class="time">
+    <view class='countDown'>倒计时：
+      <text style='color:red'>{{countDownNum}}</text>s</view>
+  </view>
+  <view class='text'>
+    <text>{{questionbody}}</text>
+    <view class='line'></view>
+    <view class="section section_gap">
+      <view wx:for="{{question}}" wx:key='questions' wx:if="{{item.id == i+1}}" class="question">
+        <view class="inline">
+          <view>{{questionnum+1}}.</view>
+          <view>{{item.questions}}</view>
+        </view>
+        <view class='line'></view>
+        <radio-group class="radio-group" bindchange="radioChange">
+          <view>
+            <label>A:
+              <radio name="answer" value="a" />{{item.a_answer}}</label>
+          </view>
+          <view>
+            <label>B:
+              <radio name="answer" value="b" />{{item.b_answer}}</label>
+          </view>
+          <view>
+            <label>C:
+              <radio name="answer" value="c" />{{item.c_answer}}</label>
+          </view>
+          <view>
+            <label>D:
+              <radio name="answer" value="d" />{{item.d_answer}}</label>
+          </view>
+        </radio-group>
+      </view>
+    </view>
+    <view style='height: 60rpx;'></view>
+    <button class="next" bindtap="nextQuestion">下一题</button>
+    <view class='tip'>{{tip}}</view>
+    <view class='line'></view>
+    <view style='text-align: center;'>得分：{{defen}}</view>
+  </view>
+</view>

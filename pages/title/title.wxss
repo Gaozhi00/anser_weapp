@@ -1,0 +1,49 @@
+page {
+  background-color:#F6C344;
+}
+.empty {
+  height: 80rpx;
+}
+.time {
+  font-size: 30rpx;
+}
+.line {
+  height: 50rpx;
+}
+.text {
+  font-size: 28rpx;
+}
+.question {
+  margin-top: 40rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+}
+.inline {
+  display: flex;
+  flex-direction: row;
+}
+.radio-group {
+  display: flex;
+  flex-direction: column;
+}
+.next {
+  margin-top: 40rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  height: 80rpx;
+  color: white;
+  font-size: 32rpx;
+  background-color: #ED602D;
+  border-color: red;
+  border-radius:8rpx;
+}
+.tip {
+  margin-top: 40rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  height: 50rpx;
+  font-size: 32rpx;
+  background-color: white;
+  border-radius:8rpx;
+  text-align: center;
+}

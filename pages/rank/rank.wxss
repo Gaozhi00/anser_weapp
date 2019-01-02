@@ -1,0 +1,21 @@
+page {
+  background-color:#F6C344;
+}
+.top {
+  margin: 20rpx;
+  height: 80rpx;
+  background-color: #ED602D;
+  border-color: red;
+  border-radius:8rpx;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 24rpx;
+  color: white;
+}
+.rank {
+  display: flex;
+  justify-content: space-around;
+  height: 100rpx;
+  margin: 20rpx;
+  font-size: 30rpx;
+}

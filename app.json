@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/rule/rule",
+    "pages/rank/rank",
+    "pages/title/title"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#F6C344"
+  },
+  "tabBar": {
+    "color": "#434343",
+    "selectedColor": "#FF540A",
+    "borderStyle": "white",
+    "backgroundColor": "#FDF4D0",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/home.png",
+        "selectedIconPath": "image/activehome.png"
+      },
+      {
+        "pagePath": "pages/rule/rule",
+        "iconPath": "image/rule.png",
+        "selectedIconPath": "image/activerule.png"
+      },
+      {
+        "pagePath": "pages/rank/rank",
+        "iconPath": "image/rank.png",
+        "selectedIconPath": "image/activerank.png"
+      }
+    ]
+  }
+}
